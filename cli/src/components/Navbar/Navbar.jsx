@@ -4,21 +4,19 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import { FaUser } from 'react-icons/fa'
-import SwipeableTemporaryDrawer from '../Drawer/Drawer'
+import CustomDrawer from '../Drawer/Drawer'
 import { BsCoin } from 'react-icons/bs'
 import { useState } from 'react'
 
 function NavBar() {
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false)
+  const [drawerOpen, setDrawerOpen] = useState(false)
 
-  // Função para abrir o drawer
-  const openDrawer = () => {
-    setIsDrawerOpen(true)
+  const handleDrawerOpen = () => {
+    setDrawerOpen(true)
   }
 
-  // Função para fechar o drawer
-  const closeDrawer = () => {
-    setIsDrawerOpen(false)
+  const handleDrawerClose = () => {
+    setDrawerOpen(false)
   }
 
   return (
@@ -38,7 +36,10 @@ function NavBar() {
                 <a href="">83</a>
                 <BsCoin />
               </Nav.Link>
-              <Nav.Link onClick={openDrawer} className="flex items-center">
+              <Nav.Link
+                onClick={handleDrawerOpen}
+                className="flex items-center"
+              >
                 <FaUser />
               </Nav.Link>
               <NavDropdown title="Dropdown" id="basic-nav-dropdown">
@@ -58,10 +59,7 @@ function NavBar() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <SwipeableTemporaryDrawer
-        isOpen={isDrawerOpen}
-        toggleDrawer={closeDrawer}
-      />
+      <CustomDrawer open={drawerOpen} onClose={handleDrawerClose} />
     </>
   )
 }
