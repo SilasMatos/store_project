@@ -3,4 +3,11 @@
     overflow: hidden;
 
   }
+  .mte{
+    margin-top: 1rem !important;
+   
+  }
+}
+.mte{
+  margin-top: 6rem;
 }

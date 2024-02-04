@@ -1,0 +1,10 @@
+.categorie-edit{
+  transition: 0.5s all ease-in;
+  background: #fff;
+  box-shadow: 1px 1px 1px 1px #ececec;
+  cursor: pointer;
+}
+
+.categorie-edit:hover{
+border-radius: 100%;
+}
