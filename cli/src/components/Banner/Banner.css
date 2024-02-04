@@ -1,0 +1,22 @@
+
+.slick-prev:before {
+  content: '←';
+  color: rgb(15, 15, 15);
+  transition: 0.3s all ease;
+}
+.slick-prev:before:hover {
+
+  color: black;
+}
+
+.slick-next:before{
+  color: rgb(15, 15, 15);
+  transition: 0.3s all ease;
+}
+.slick-next:before:hover{
+
+  color: black;
+}
+
+
+
