@@ -7,7 +7,14 @@
     margin-top: 1rem !important;
    
   }
+  #container-carousel{
+    margin-top: 3rem !important;
+  }
 }
 .mte{
   margin-top: 6rem;
+}
+
+#container-carousel{
+  margin-top: 9rem;
 }

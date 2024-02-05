@@ -1,4 +1,7 @@
 // import React from 'react'
+import teste from '../../assets/img/teste.jpg'
+import hb20 from '../../assets/img/hb20.jpg'
+
 import vouchers from '../../assets/img/vouchers.png'
 import doces from '../../assets/img/doces.png'
 import eletronicos from '../../assets/img/eletronicos.png'
@@ -29,12 +32,19 @@ export default function Home() {
         <Categories img={marcador} title="Personalizados" />
       </div>
 
-      <div className="container flex mte">
-        <Card name="teste" author="500 Pontos" />
-        <Card name="teste" author="500 Pontos" />
-        <Card name="teste" author="500 Pontos" />
-        <Card name="teste" author="500 Pontos" />
-        <Card name="teste" author="500 Pontos" />
+      <div className="container  mte">
+        <div className='font-semibold text-xl '>
+          Nossos Produtos
+
+        </div>
+        <div className='flex w-full'>
+
+        <Card name="Apple iPhone 13 " pontos="600 Pontos" src={teste} />
+        <Card name="HYUNDAI HB20" pontos="1500 Pontos" src={hb20}/>
+        <Card name="Apple iPhone 13" pontos="500 Pontos" src={teste} />
+        <Card name="Apple iPhone 13 " pontos="500 Pontos" src={teste}/>
+        <Card name="Apple iPhone 13 " pontos="500 Pontos"  src={teste}/>
+        </div>
       </div>
     </>
   )
