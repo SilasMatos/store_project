@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom'
 
 import Home from '../pages/Home/Home'
+import Login from '../pages/Login/Login'
 // import { UserContext } from '../configs/UserContext'
 //import { useContext } from 'react'
 
@@ -25,7 +26,8 @@ const Rotas = () => {
     <Router>
       <ToTop />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Login />} />
+        <Route path="Home" element={<Home />} />
       </Routes>
     </Router>
   )

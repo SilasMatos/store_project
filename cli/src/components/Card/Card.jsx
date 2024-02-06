@@ -1,5 +1,6 @@
-
 import './Card.css'
+
+import PropTypes from 'prop-types'
 export default function Card({ src, name, pontos }) {
   return (
     <>
@@ -24,4 +25,10 @@ export default function Card({ src, name, pontos }) {
       </div>
     </>
   )
+}
+
+Card.propTypes = {
+  src: PropTypes.string.isRequired,
+  pontos: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired
 }
