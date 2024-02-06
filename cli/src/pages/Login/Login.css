@@ -1,5 +1,9 @@
 .main-login-container{
   background-color: #affaff;
-background-image: linear-gradient(135deg, #affaff 0%, #f5fffc 100%);
+background-image: linear-gradient(100deg, #affaff 0%, #ffffff 80%);
 
+}
+
+.border-login{
+  border: 4px solid #b5f4f8;
 }

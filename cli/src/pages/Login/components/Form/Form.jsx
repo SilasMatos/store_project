@@ -13,6 +13,7 @@ import Select from '@mui/material/Select'
 
 import Visibility from '@mui/icons-material/Visibility'
 import VisibilityOff from '@mui/icons-material/VisibilityOff'
+
 import { useState } from 'react'
 function Form() {
   const [showPassword, setShowPassword] = useState(false)
@@ -32,7 +33,7 @@ function Form() {
       <form>
         <div className="mb-6">
           <FormControl variant="standard" sx={{ m: 0, width: '100%' }}>
-            <InputLabel id="demo-simple-select-standard-label">Tipo</InputLabel>
+            <InputLabel id="demo-simple-select-standard-label">Site</InputLabel>
             <Select
               labelId="demo-simple-select-standard-label"
               id="demo-simple-select-standard"
@@ -40,12 +41,11 @@ function Form() {
               onChange={handleChange}
               label="Age"
             >
-              <MenuItem value="">
-                <em>None</em>
-              </MenuItem>
-              <MenuItem value={10}>Ten</MenuItem>
-              <MenuItem value={20}>Twenty</MenuItem>
-              <MenuItem value={30}>Thirty</MenuItem>
+              <MenuItem value={10}>FSABA</MenuItem>
+              <MenuItem value={20}>ITABUNA</MenuItem>
+              <MenuItem value={20}>BARUERI</MenuItem>
+              <MenuItem value={30}>MATRIZ</MenuItem>
+              <MenuItem value={30}>IMSSACM</MenuItem>
             </Select>
           </FormControl>
         </div>
@@ -83,9 +83,9 @@ function Form() {
         </div>
         <button
           type="submit"
-          className="w-32 bg-gradient-to-r from-cyan-400 to-cyan-600 text-white py-2 rounded-lg mx-auto block focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 mt-4 mb-6"
+          className="w-32 bg-gradient-to-r from-cyan-400 to-cyan-600 text-white py-2 rounded-xl mx-auto block focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 mt-4 mb-6"
         >
-          Acceso
+          Entrar
         </button>
       </form>
     </>

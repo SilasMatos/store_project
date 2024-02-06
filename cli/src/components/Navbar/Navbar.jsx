@@ -38,7 +38,7 @@ function NavBar() {
 
   return (
     <>
-      <Navbar className="fixed-top bg-white shadow-sm p-3" >
+      <Navbar className="fixed-top bg-white shadow-sm p-3">
         <Container>
           {/* Navbar.Brand com um campo de busca */}
           <Navbar.Brand href="#home">
