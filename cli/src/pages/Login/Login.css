@@ -1,9 +1,19 @@
 .main-login-container{
-  background-color: #affaff;
-background-image: linear-gradient(100deg, #affaff 0%, #ffffff 80%);
+
 
 }
 
 .border-login{
-  border: 4px solid #b5f4f8;
+  border: 1px solid #c7f9fc;
+}
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

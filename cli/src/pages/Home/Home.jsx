@@ -24,7 +24,7 @@ export default function Home() {
         <Banner />
       </div>
 
-      <div className="container flex justify-evenly mte">
+      <div className="container flex justify-center gap-10 mte">
         <Categories img={vouchers} title="Vouchers" />
         <Categories img={eletronicos} title="Eletrônicos" />
         <Categories img={desconto} title="Promoções" />
@@ -35,15 +35,17 @@ export default function Home() {
       <div className="container  mte">
         <div className='font-semibold text-xl '>
           Nossos Produtos
+          <div className='line-divider'> 
 
+          </div>
         </div>
         <div className='flex w-full'>
 
-        <Card name="Apple iPhone 13 " pontos="600 Pontos" src={teste} />
-        <Card name="HYUNDAI HB20" pontos="1500 Pontos" src={hb20}/>
-        <Card name="Apple iPhone 13" pontos="500 Pontos" src={teste} />
-        <Card name="Apple iPhone 13 " pontos="500 Pontos" src={teste}/>
-        <Card name="Apple iPhone 13 " pontos="500 Pontos"  src={teste}/>
+        <Card name="Apple iPhone 13 " pontos="600 TEL cash" src={teste} />
+        <Card name="HYUNDAI HB20" pontos="1500 TEL cash" src={hb20}/>
+        <Card name="Apple iPhone 13" pontos="500 TEL cash" src={teste} />
+        <Card name="Apple iPhone 13 " pontos="500 TEL cash" src={teste}/>
+        <Card name="Apple iPhone 13 " pontos="500 TEL cash"  src={teste}/>
         </div>
       </div>
     </>

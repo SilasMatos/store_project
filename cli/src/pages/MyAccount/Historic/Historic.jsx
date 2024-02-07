@@ -23,7 +23,7 @@ const columns = [
     label: 'Size\u00a0(km\u00b2)',
     minWidth: 170,
     align: 'right',
-    format: value => value.toLocaleString('en-US')
+    format: value => value.toLocaleString('pt-br')
   },
   {
     id: 'density',

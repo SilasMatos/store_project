@@ -41,8 +41,9 @@ function NavBar() {
       <Navbar className="fixed-top bg-white shadow-sm p-3">
         <Container>
           {/* Navbar.Brand com um campo de busca */}
-          <Navbar.Brand href="#home">
-            <h1 className="tracking-in-expand">LOGO</h1>
+          <Navbar.Brand href="
+          ">
+            <h1 className="tracking-in-expand">Tel Premia</h1>
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

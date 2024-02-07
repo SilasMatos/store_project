@@ -7,7 +7,7 @@ function Login() {
     <>
       <div className="max-h-screen  overflow-hidden main-login-container">
         <div className="h-screen flex justify-center items-center">
-          <div className="bg-white p-4 flex justify-center shadow-sm items-center gap-3  border-login rounded-3xl ">
+          <div className="bg-white p-4 flex justify-center shadow-2xl items-center gap-3  border-login rounded-3xl ">
             <div className="p-5">
               <div className=" w-full p-3 bg-white rounded-3xl ">
                 <div className="flex justify-center mb-8"></div>

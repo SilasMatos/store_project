@@ -12,9 +12,14 @@
   }
 }
 .mte{
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 
 #container-carousel{
   margin-top: 9rem;
+}
+.line-divider{
+  width: 20%;
+  height: 2px;border-radius: 100%;
+  background: #1EBBEE;
 }

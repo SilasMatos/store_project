@@ -18,7 +18,7 @@ function MyAccount() {
         <NavBar />
       </div>
       <div className="mte container ">
-        <div>
+        <div className='mt-4'>
           <h1 className="text-2xl">Minha Conta</h1>
           <p className="text-sm font-semibold text-gray-400">
             Explore as opções disponíveis para acessar extratos de ganhos de

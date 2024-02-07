@@ -6,12 +6,12 @@ export default function Categories({ img, title }) {
   return (
     <div className="overflow-hidden">
       <div className="p-3 rounded-2xl flex justify-center items-center categorie-edit">
-        <div className="max-w-5 md:max-w-14">
+        <div className="max-w-5 md:max-w-8">
           <img src={img} alt="" className="w-full h-auto" />
         </div>
       </div>
       <div className="mt-1 flex justify-center">
-        <p className="font-medium text-center  text-xs md:text-base">{title}</p>
+        <p className="font-medium text-center  text-xs md:text-xs">{title}</p>
       </div>
     </div>
   )
