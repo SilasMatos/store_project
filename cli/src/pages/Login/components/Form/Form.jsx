@@ -41,11 +41,11 @@ function Form() {
               onChange={handleChange}
               label="Age"
             >
-              <MenuItem value={10}>FSABA</MenuItem>
-              <MenuItem value={20}>ITABUNA</MenuItem>
-              <MenuItem value={20}>BARUERI</MenuItem>
-              <MenuItem value={30}>MATRIZ</MenuItem>
-              <MenuItem value={30}>IMSSACM</MenuItem>
+              <MenuItem value="FSABA">FSABA</MenuItem>
+              <MenuItem value="ITABUNA">ITABUNA</MenuItem>
+              <MenuItem value="BARUERI">BARUERI</MenuItem>
+              <MenuItem value="MATRIZ">MATRIZ</MenuItem>
+              <MenuItem value="IMSSACM">IMSSACM</MenuItem>
             </Select>
           </FormControl>
         </div>
