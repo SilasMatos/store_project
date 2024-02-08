@@ -14,6 +14,8 @@ import NotFound from '../pages/NotFound/NotFound'
 import MyAccount from '../pages/MyAccount/MyAccount'
 import Historic from '../pages/MyAccount/Historic/Historic'
 import Extract from '../pages/MyAccount/Extract/Extract'
+import ReportExtraction from '../pages/Dashboard/components/ReportExtraction/ReportExtraction'
+
 
 // import { UserContext } from '../configs/UserContext'
 //import { useContext } from 'react'
@@ -35,7 +37,12 @@ const Rotas = () => {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="Inicio" element={<Home />} />
-        <Route path="Dashboard" element={<Dashboard />} />
+        <Route path="Dashboard" element={<Dashboard />} >
+          <Route path="Relatorio" element={<ReportExtraction />} />
+          <Route path="Pedidos" element={<ReportExtraction />} />
+          <Route path="Acompanhamento" element={<ReportExtraction />} />
+          <Route path="Cadastrarprodutos" element={<ReportExtraction />} />
+        </Route>
         <Route path="MinhaConta" element={<MyAccount />}>
           <Route path="Historico" element={<Historic />} />
           <Route path="Extrato" element={<Extract />} />

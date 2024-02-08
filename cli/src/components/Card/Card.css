@@ -17,7 +17,7 @@ a
 }
 .product-card {
     /*#008ECC*/
-
+    transition: transform 0.5s ease-in-out;
     width: 200px;
     position: relative;
     margin: 50px auto;
@@ -25,6 +25,9 @@ a
     background: #fff;
     box-shadow: 1px 1px 1px 1px #dddcdc;
 
+}
+.product-card:hover{
+    transform: translateY(-10px);
 }
 #icon-troca{
     color: #008ECC;
@@ -215,3 +218,4 @@ font-size: 12px;
     box-shadow:  1px 1px 5px #ebeaea,
     -1px -1px 5px #f6f6f6;
 }
+
